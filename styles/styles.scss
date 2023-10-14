@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+}
+.section{
+  width: 100%;
+  position: relative;
+  min-width: 1280px;
+}
+.section-1{
+  height: 900px;
+  background: url("./../images/Group 1.png") center top no-repeat;
+}
+.section_container{
+  width: 1280px;
+  margin: 0 auto;
+  >img{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .section__content{
+    padding-top: 737px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    .section__article{
+      font-size: 42px;
+      font-weight: 700;
+    }
+    .section__text{
+      font-size: 20px;
+    }
+  }
+}
+
+.section-2{
+  height: 1020px;
+  background: url("./../images/Group 2.png")center top no-repeat;
+  margin-top: -8px;
+}
+.section_container-2{
+  width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 24px;
+  >img{
+    margin-left: 43px;
+    width: 430px;
+    height: 869px;
+    margin-top: 18px;
+  }
+}
+.section2__article{
+  color: #416DF4;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 38px;
+  padding-bottom: 40px;
+}
+.section2__table-article{
+  display: flex;
+  flex-direction: column;
+  .section2__table-text{
+    align-self: flex-end;
+    display: flex;
+    color: #671D00;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 10px;
+    >p{
+      border: 1px solid rgba(103, 29, 0, 0.48);
+      padding: 4px 7px;
+    }
+  }
+}
+.section2__table-item{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  height: 70px;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  border-radius: 1px;
+  margin-bottom: 0.5px;
+  .img__table{
+    padding-right: 20px;
+  }
+
+  .table__text{
+    width: 230px;
+  }
+
+  .table__boolean{
+    text-align: center;
+    width: 128px;
+    margin-right: 40px;
+  }
+
+  .table__duration{
+    width: 128px;
+    text-align: center;
+  }
+}
+.section2__boxes{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  >div{
+    margin-top: 90px;
+    margin-left: -139px;
+    >p{
+      font-size: 50px;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+    >a{
+      background-color: #FCFF00;
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      padding: 10px 30px;
+      border-radius: 7px;
+      text-transform: uppercase;
+    }
+  }
+}
